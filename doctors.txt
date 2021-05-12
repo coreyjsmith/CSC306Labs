@@ -1,0 +1,20 @@
+$sql = "CREATE TABLE Patients (
+address VARCHAR(50),
+age INT(3),
+gender VARCHAR(1),
+maritalstatus VARCHAR(1),
+)";
+
+
+$sql = "CREATE TABLE Medications (
+when VARCHAR(20),
+what VARCHAR(20),
+quantity INT(3),
+)";
+
+
+$sql = "CREATE TABLE Billing (
+amount INT(10),
+amountpaiddate VARCHAR(30),
+insurance VARCHAR(50),
+)";
